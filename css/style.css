@@ -1,0 +1,54 @@
+.form--login {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 4rem;
+}
+.nav--logout {
+    cursor: pointer;
+}
+.image--restaurant-detail {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.image--restaurant {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.image--restaurant-dish {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+.border--restaurant-dish {
+    border: 1px solid #d8d8d8;
+}
+.list-group-item-dish {
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-left: none;
+    border-right: none;
+    color: black;
+}
+.list-group-item a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.restaurant-dish__description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dish--image {
+    height: 200px;
+    width: 100%;
+}
+.button--back {
+    width: fit-content;
+}
+
+footer .row {
+    flex-direction: column;
+}
