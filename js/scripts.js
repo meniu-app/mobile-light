@@ -14,7 +14,7 @@ $(document).ready(function() {
         let restaurantContent = '';
         if (item && item.id) {
           restaurantContent = '<li class="list-group-item">' +
-            '<a href="restaurant.html?restaurant=' + item.id + '" class="restaurant--card__item m-2">' +
+            '<a href="./restaurant.html?restaurant=' + item.id + '" class="restaurant--card__item m-2">' +
               '<div class="row">' +
                 '<div class="col-8">' +
                   '<h5 class="mb-2">' + item.name + '</h5>' +
